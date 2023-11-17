@@ -14,8 +14,8 @@ thread.async{
 }
 /* When the job is done, call thread.cancel() to stop the thread.
  * The cancel method can be called from within a sync or async execution block,
- * or from elsewhere. */
+ *  or from elsewhere. */
 
-/* You can see the tests of the project for funnier use cases (mostly starting
- * the thread _after_ dispatching async job on it). */
+/* You can see the tests of the project for more interesting use cases
+ *  (mostly starting the thread _after_ dispatching async job on it). */
 ----
